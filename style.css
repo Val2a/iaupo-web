@@ -1,7 +1,9 @@
 :root {
   --persian-green: #00a49c;
   --icterine: #f6fb7e;
-  --background-gray: #202020;
+  --light-gray: #373737;
+  --gray: #202020;
+  --dark-gray: #171717;
   --white-font: #f0f0f0;
 }
 
@@ -16,7 +18,13 @@
   top: 0;
   width: 100%;
   color: var(--white-font);
-  border-bottom: gray 1px solid;
+  border-bottom: var(--light-gray) 1px solid;
+  background-color: var(--gray);
+
+  border-radius: 15px;
+
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
 }
 
 .navbar__contents-container {
@@ -25,7 +33,6 @@
   justify-content: space-between;
   align-items: center;
   height: 55px;
-  background-color: var(--background-gray);
   padding: 0 10px;
 }
 
@@ -48,7 +55,7 @@
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-around;
-  background-color: #171717;
+  background-color: var(--dark-gray);
 }
 
 .welcome__text-container {
@@ -66,16 +73,16 @@
 
 .welcome__title {
   margin-top: 150px;
-  font-size: 80px;
-  background: -webkit-linear-gradient(var(--persian-green), var(--icterine));
+  font-size: 60px;
+  background: linear-gradient(90deg, var(--persian-green), var(--icterine));
   background-clip: text;
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .welcome__subtitle {
   margin-top: 30px;
   font-size: 40px;
+
   color: var(--white-font);
 }
 
@@ -110,5 +117,5 @@
 .main-footer {
   width: 100%;
   height: 70px;
-  background-color: var(--background-gray);
+  background-color: var(--gray);
 }
