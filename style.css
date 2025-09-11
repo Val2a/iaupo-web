@@ -1,9 +1,8 @@
 :root {
-  --persian-green: #00a49cff;
-  --icterine: #f6fb7eff;
-  --oxford-blue: #0a2239ff;
-  --coyote: #82735cff;
-  --alice-blue: #e9f1f7ff;
+  --persian-green: #00a49c;
+  --icterine: #f6fb7e;
+  --background-gray: #202020;
+  --white-font: #f0f0f0;
 }
 
 * {
@@ -16,7 +15,8 @@
   position: fixed;
   top: 0;
   width: 100%;
-  color: var(--oxford-blue);
+  color: var(--white-font);
+  border-bottom: gray 1px solid;
 }
 
 .navbar__contents-container {
@@ -24,12 +24,9 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  height: 40px;
-  background-color: var(--alice-blue);
-}
-
-.navbar__logo {
-  margin: 0 10px;
+  height: 55px;
+  background-color: var(--background-gray);
+  padding: 0 10px;
 }
 
 .navbar__link-list {
@@ -40,17 +37,78 @@
 }
 
 .navbar__link {
-  background-color: blue;
   margin: 0 10px;
 }
 
-.main-contents__welcome {
+.welcome {
   width: 100%;
   height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #171717;
+}
+
+.welcome__text-container {
+  width: 49vw;
+  height: 100vh;
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /*DEBUG
+  background-color: #0000ff44;
+  */
+}
+
+.welcome__title {
+  margin-top: 150px;
+  font-size: 80px;
+  background: -webkit-linear-gradient(var(--persian-green), var(--icterine));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.welcome__subtitle {
+  margin-top: 30px;
+  font-size: 40px;
+  color: var(--white-font);
+}
+
+.welcome__separator {
+  display: block;
+  margin-top: 55px;
+  width: 2px;
+  height: 90%;
+  border: none;
+  background: -webkit-linear-gradient(var(--persian-green), var(--icterine));
+  background-clip: border-box;
+  -webkit-background-clip: border-box;
+}
+
+.welcome__logo-container {
+  width: 49vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*DEBUG
+  background-color: #ff000044;
+  */
+}
+
+.welcome__logo {
+  margin-top: 150px;
+  width: 65%;
+  min-width: 250px;
 }
 
 .main-footer {
   width: 100%;
   height: 70px;
-  background-color: #ddd;
+  background-color: var(--background-gray);
 }
