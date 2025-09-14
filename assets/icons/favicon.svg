@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="210mm"
+   viewBox="0 0 210 210"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="MINI Logo IAUPO.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.83837973"
+     inkscape:cx="342.92337"
+     inkscape:cy="378.11029"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,5.2916665,0,1 @ F,0,0,1,0,5.2916665,0,1 @ F,0,0,1,0,5.2916665,0,1 @ F,0,0,1,0,5.2916665,0,1 @ F,0,0,1,0,5.2916665,0,1"
+       radius="20"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1"
+       nodesatellites_param="F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1 @ F,0,0,1,0,0,0,1"
+       radius="0"
+       unit="px"
+       method="auto"
+       mode="F"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+    <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#00a49c;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#f6fb7e;stop-opacity:1;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="175.36497"
+       y1="135.58508"
+       x2="316.32248"
+       y2="97.815636"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path1"
+       style="fill:url(#linearGradient2);stroke-width:0.264583"
+       inkscape:transform-center-x="-7.845793e-06"
+       inkscape:transform-center-y="-8.7261201"
+       d="M 245.33554 49.043842 A 7.2833541 7.2833541 0 0 0 241.56274 50.416991 L 177.15967 97.20818 A 7.2833541 7.2833541 0 0 0 174.51402 105.35119 L 189.88939 152.67212 L 209.67618 139.14541 A 39.610863 39.610863 0 0 1 206.23268 122.99171 A 39.610863 39.610863 0 0 1 245.84358 83.380809 A 39.610863 39.610863 0 0 1 285.45448 122.99171 A 39.610863 39.610863 0 0 1 245.84358 162.60261 A 39.610863 39.610863 0 0 1 217.72722 150.89331 L 194.47609 166.78844 L 199.11356 181.06138 A 7.2833541 7.2833541 0 0 0 206.04048 186.09409 L 285.64711 186.09409 A 7.2833541 7.2833541 0 0 0 292.57359 181.06138 L 317.17357 105.35119 A 7.2833541 7.2833541 0 0 0 314.52749 97.20818 L 250.12485 50.416991 A 7.2833541 7.2833541 0 0 0 245.33554 49.043842 z M 245.84358 96.893636 A 26.098127 26.098127 0 0 0 219.74551 122.99171 A 26.098127 26.098127 0 0 0 245.84358 149.08978 A 26.098127 26.098127 0 0 0 271.94209 122.99171 A 26.098127 26.098127 0 0 0 245.84358 96.893636 z "
+       transform="matrix(1.191101,0,0,1.191101,-187.82474,-35.025866)" />
+    <g
+       id="path4" />
+  </g>
+</svg>
