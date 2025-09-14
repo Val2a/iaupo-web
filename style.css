@@ -5,6 +5,8 @@
   --gray: #202020;
   --dark-gray: #171717;
   --white-font: #f0f0f0;
+
+  --nav-bar-height: 60px;
 }
 
 * {
@@ -18,22 +20,22 @@
   top: 0;
   width: 100%;
   color: var(--white-font);
-  border-bottom: var(--light-gray) 1px solid;
+  border-bottom: var(--light-gray) 2px solid;
   background-color: var(--gray);
-
-  border-radius: 15px;
-
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
+  z-index: 100;
 }
 
+.navbar__logo {
+  height: 90%;
+}
 .navbar__contents-container {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  height: 55px;
-  padding: 0 10px;
+  height: var(--nav-bar-height);
+  padding: 0 15px;
+  font-size: large;
 }
 
 .navbar__link-list {
@@ -51,67 +53,85 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: space-around;
-  background-color: var(--dark-gray);
+  justify-content: flex-start;
+  background: linear-gradient(
+    45deg,
+    #00a49c,
+    #f6fb7e,
+    #00a49c,
+    #f6fb7e,
+    #00a49c
+  );
+  background-size: 5000px 5000px;
+  animation: gradient-animation 3s linear infinite;
 }
 
-.welcome__text-container {
-  width: 49vw;
-  height: 100vh;
-  flex-grow: 2;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  /*DEBUG
-  background-color: #0000ff44;
-  */
-}
-
-.welcome__title {
-  margin-top: 150px;
-  font-size: 60px;
-  background: linear-gradient(90deg, var(--persian-green), var(--icterine));
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.welcome__subtitle {
-  margin-top: 30px;
-  font-size: 40px;
-
-  color: var(--white-font);
-}
-
-.welcome__separator {
-  display: block;
-  margin-top: 55px;
-  width: 2px;
-  height: 90%;
-  border: none;
-  background: -webkit-linear-gradient(var(--persian-green), var(--icterine));
-  background-clip: border-box;
-  -webkit-background-clip: border-box;
-}
-
-.welcome__logo-container {
-  width: 49vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /*DEBUG
-  background-color: #ff000044;
-  */
+@keyframes gradient-animation {
+  to {
+    background-position: 5000px 0;
+  }
 }
 
 .welcome__logo {
-  margin-top: 150px;
-  width: 65%;
-  min-width: 250px;
+  width: 100%;
+  height: 100%;
+  margin-top: 110px;
+  background-color: var(--dark-gray);
+  mask: url(./assets/icons/Logo\ IAUPO\ Cuadrado\ nofill.svg) center/contain
+      no-repeat,
+    linear-gradient(#000 0 0);
+  mask-composite: exclude;
+
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.welcome__subtitle {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  margin-bottom: 100px;
+  font-size: 3rem;
+  text-align: center;
+  color: var(--white-font);
+  background-color: var(--dark-gray);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.welcome__iaspan {
+  color: transparent;
+  background: linear-gradient(45deg, var(--persian-green), var(--icterine));
+  background-clip: text;
+}
+
+.welcome__content {
+  width: 70%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .welcome {
+    background-color: red;
+  }
+
+  .welcome__content {
+    width: 100%;
+  }
+
+  .welcome__logo {
+    margin-top: var(--nav-bar-height);
+    border-radius: 0;
+  }
+
+  .welcome__subtitle {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    font-size: 2.5rem;
+  }
 }
 
 .main-footer {

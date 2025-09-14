@@ -10,7 +10,7 @@
   <body>
     <nav class="navbar">
       <div class="navbar__contents-container">
-        <span class="navbar__logo">Logo</span>
+        <img class="navbar__logo" src="./assets/icons/favicon.svg" />
         <ul class="navbar__link-list">
           <li class="navbar__link">Inicio</li>
           <li class="navbar__link">Sobre nosotros</li>
@@ -19,23 +19,26 @@
     </nav>
     <main class="main-contents">
       <article class="welcome">
-        <div class="welcome__text-container">
-          <h1 class="welcome__title">IAUPO</h1>
-          <p class="welcome__subtitle">
-            Asociación Estudiantil<br />sobre<br />IA en la Universidad Pablo de
-            Olavide
-          </p>
-        </div>
-        <hr class="welcome__separator" />
-        <div class="welcome__logo-container">
-          <img
-            class="welcome__logo"
-            src="./assets/icons/Logo IAUPO Cuadrado.svg"
-            alt="Logo IAUPO"
-          />
-        </div>
+        <div class="welcome__content welcome__logo"></div>
+        <p class="welcome__content welcome__subtitle">
+          Asociación Estudiantil de <span class="welcome__iaspan">IA</span> en
+          la Universidad Pablo de Olavide
+        </p>
+      </article>
+      <article class="about">
+        <h1>¿Quienes somos?</h1>
+        <p>
+          Somos un grupo de estudiantes en crecimiento, con ganas de ampliar
+          nuestros horizontes en el campo de la Inteligencia Artificial y el
+          Machine Learning.
+        </p>
+        <p>
+          Además, hemos propuesto ésta asociación estudiantil para promover
+          actividades relacionadas, acercándonos al resto del alumnado que
+          también comparta nuestros intereses.
+        </p>
       </article>
     </main>
-    <footer class="main-footer">Ésto es un footer divino</footer>
+    <footer class="main-footer">Developed by IAUPO</footer>
   </body>
 </html>
