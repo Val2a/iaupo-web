@@ -9,10 +9,15 @@
   --nav-bar-height: 60px;
 }
 
+@font-face {
+  font-family: Consolas;
+  src: url(./assets/fonts/consolas.ttf);
+}
+
 * {
   padding: 0;
   margin: 0;
-  font-family: Consolas, monaco, monospace;
+  font-family: Consolas;
   color: var(--white-font);
 }
 
