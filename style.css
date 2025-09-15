@@ -181,6 +181,7 @@ a {
   .welcome__logo {
     margin-top: var(--nav-bar-height);
     border-radius: 0;
+    mask-size: 375px 375px;
   }
 
   .welcome__subtitle {
