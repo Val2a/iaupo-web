@@ -102,8 +102,8 @@ a {
   min-height: 325px;
   margin-top: 110px;
   background-color: var(--dark-gray);
-  mask: url(./assets/icons/Logo\ IAUPO\ Cuadrado\ nofill.svg) center/contain
-      no-repeat,
+  mask: url(./assets/icons/Logo\ IAUPO\ Cuadrado\ Consolas\ Font\ Independiente\ NO\ FILL.svg)
+      center/contain no-repeat,
     linear-gradient(#000 0 0);
   mask-composite: exclude;
 
@@ -161,6 +161,10 @@ a {
 
 .main-footer__section {
   padding-top: 2%;
+}
+
+.main-footer__email-link {
+  text-decoration: underline;
 }
 
 .main-footer__separator {
