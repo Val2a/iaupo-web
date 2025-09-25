@@ -175,7 +175,7 @@ a {
   width: 100%;
   background-color: var(--light-gray);
   border: none;
-  margin: 4% 0;
+  margin: 2% 0;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -212,5 +212,9 @@ a {
 
   .main-footer__section {
     padding-top: 4%;
+  }
+
+  .main-footer__separator {
+    margin: 4% 0;
   }
 }
